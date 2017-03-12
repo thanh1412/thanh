@@ -48,9 +48,7 @@ if($kq==8)
  }
 ?>
 
-<div style='padding:10px 8px; position: fixed; top: 50%; left: 50%; margin-top: -150px; margin-left: -520px;border-radius: 0;border: 0px solid #d9d9d9;'>
-<div class="fb-like" data-href="" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
-</div>
+<div class='fb-like' data-action='like' data-href='' data-layout='button_count' data-share='true' data-show-faces='false' data-width='520'/>
 </center>
 
 </body>	
