@@ -2,56 +2,52 @@
 <html>
 <body>
 <center>
-<table border='1'  bordercolor='red' width='400' height='200' cellspacing='5' cellpadding='5'>
+</br>
+</br>
 <?php
     if(isset($_POST['xuly'])){
 
 
-        $inrow=$_POST['dong'];
-        $incol=$_POST['cot'];
-$n=($incol-$inrow);
-if($n==0)
+        $kq=$_POST['kq'];
+    
+if($kq==1)
   {
-       for($row=0;$row<$inrow;++$row)
-     {
-echo "<tr></tr>";
-       for($col=0;$col<$row+1; ++$col)
-       {
-echo "<td></td>";
-       }
-     }
+     echo"<img src='1.PNG' />";
  }
 
-if($n<0)
-{
-       for($row=0;$row<$inrow;++$row)
-     {
-echo "<tr></tr>";
-       for($col=0;$col<$row+1;++$col)
-if($col<$incol){
-       {
-echo "<td></td>";
-       }
-     }
-} 
-}
-if($n>0)
-{
-          for($row=0;$row<$inrow;++$row)
-     {
-echo "<tr></tr>";
-$dem=$incol-($incol-($row+1));
-       for($col=0;$col<$dem+$n; ++$col)
-       {
-echo "<td></td>";
-       }
-     }
+if($kq==2)
+  {
+     echo"<img src='2.PNG' />";
+ }
+if($kq==3)
+  {
+     echo"<img src='3.PNG' />";
+ }
+if($kq==4)
+  {
+     echo"<img src='4.PNG' />";
+ }
+if($kq==5)
+  {
+     echo"<img src='5.PNG' />";
+ }
+if($kq==6)
+  {
+     echo"<img src='6.PNG' />";
+ }
+if($kq==7)
+  {
+     echo"<img src='7.PNG' />";
+ }
+if($kq==8)
+  {
+     echo"<img src='8.PNG' />";
+ }
 
-}
         
  }
 ?>
-</table>
+
 <form name='form' method='post' action="index.php">
 
 <input type="submit" name="back" value="quay ve" /> 
