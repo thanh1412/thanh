@@ -48,10 +48,9 @@ if($kq==8)
  }
 ?>
 
-<form name='form' method='post' action="index.php">
-
-<input type="submit" name="back" value="quay ve" /> 
-</form>
+<div style='padding:10px 8px; position: fixed; top: 50%; left: 50%; margin-top: -150px; margin-left: -520px;border-radius: 0;border: 0px solid #d9d9d9;'>
+<div class="fb-like" data-href="" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+</div>
 </center>
 
 </body>	
