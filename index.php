@@ -4,7 +4,7 @@
 <center>
 
 <br/>
-<font size="5" color ="red">H#97126;y chon 1 canh cua toi se cho ban biet tinh cach va van menh cua ban</font><br/>
+<font size="5" color ="red">H#227;y chon 1 canh cua toi se cho ban biet tinh cach va van menh cua ban</font><br/>
 <br/>
 </br>
 
